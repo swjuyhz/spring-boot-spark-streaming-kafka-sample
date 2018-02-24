@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-boot-spark-streaming-kafka-sample
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: yonghao.zheng
+Implementation-Vendor-Id: com.swjuyhz
+Build-Jdk: 1.8.0_144
+Implementation-URL: http://projects.spring.io/spring-boot/spring-boot-
+ spark-streaming-kafka-sample/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
