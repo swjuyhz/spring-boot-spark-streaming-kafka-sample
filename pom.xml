@@ -30,42 +30,42 @@
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
  		<dependency>
-    		<groupId>org.springframework.boot</groupId>
-    		<artifactId>spring-boot-starter-web</artifactId>
-    		<exclusions>
-            	<exclusion>
-                	<groupId>org.springframework.boot</groupId>
-                	<artifactId>spring-boot-starter-tomcat</artifactId>
-            	</exclusion>
-        	</exclusions>
+    			<groupId>org.springframework.boot</groupId>
+    			<artifactId>spring-boot-starter-web</artifactId>
+    			<exclusions>
+            			<exclusion>
+                			<groupId>org.springframework.boot</groupId>
+                			<artifactId>spring-boot-starter-tomcat</artifactId>
+            			</exclusion>
+        		</exclusions>
 		</dependency> 
 	  	<!-- 换成undertow -->
 		<dependency>
-        	<groupId>org.springframework.boot</groupId>
-        	<artifactId>spring-boot-starter-undertow</artifactId>
-    	</dependency>
+        		<groupId>org.springframework.boot</groupId>
+        		<artifactId>spring-boot-starter-undertow</artifactId>
+    		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		        <dependency>
-            <groupId>org.apache.spark</groupId>
-            <artifactId>spark-mllib_2.11</artifactId>
-            <version>2.2.0</version>
-            <scope>provided</scope>
-            <exclusions>
-            	<exclusion>
-            		<groupId>org.codehaus.janino</groupId>
-            		<artifactId>commons-compiler</artifactId>
-            	</exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
+		<dependency>
+            		<groupId>org.apache.spark</groupId>
+            		<artifactId>spark-mllib_2.11</artifactId>
+           		<version>2.2.0</version>
+            		<scope>provided</scope>
+            		<exclusions>
+            			<exclusion>
+            				<groupId>org.codehaus.janino</groupId>
+            				<artifactId>commons-compiler</artifactId>
+            			</exclusion>
+            		</exclusions>
+        	</dependency>
+        	<dependency>
 			<groupId>org.codehaus.janino</groupId>
 			<artifactId>commons-compiler</artifactId>
 			<version>2.7.8</version>
-			 <scope>provided</scope>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.scala-lang.modules</groupId>
@@ -73,10 +73,10 @@
 			<version>1.0.6</version>
 		</dependency>
 		<dependency>
-            <groupId>org.apache.spark</groupId>
-            <artifactId>spark-streaming-kafka-0-8_2.11</artifactId>
-            <version>2.2.0</version>
-        </dependency>
+            		<groupId>org.apache.spark</groupId>
+            		<artifactId>spark-streaming-kafka-0-8_2.11</artifactId>
+            		<version>2.2.0</version>
+        	</dependency>
 		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-validator -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
