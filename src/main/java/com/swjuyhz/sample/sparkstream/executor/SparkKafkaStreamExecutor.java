@@ -83,8 +83,6 @@ public class SparkKafkaStreamExecutor implements Serializable,Runnable{
 //		stream.foreachRDD(t->{
 //			t.foreachPartition(f->{
 //				while(f.hasNext()) {
-//					
-//					//新闻关联个股+新闻打标签
 //					Map<String, Object> symbolLDAHandlered =LDAModelPpl
 //							.LDAHandlerOneArticle(sparkSession, SymbolAndNews.symbolHandlerOneArticle(sparkSession, f.next()._2));
 //				}
